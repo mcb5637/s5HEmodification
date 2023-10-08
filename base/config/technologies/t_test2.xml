@@ -1,0 +1,21 @@
+<root>
+	<TecCategoryType>TC_TEST</TecCategoryType>
+	<TimeToResearch>50</TimeToResearch>
+	<ResourceCosts>
+		<Clay>100</Clay>
+	</ResourceCosts>
+	<Conditions>
+		<TecCondition>
+			<TecType></TecType>
+			<TecCategoryType>TC_TEST</TecCategoryType>
+		</TecCondition>
+		<EntityCondition>
+			<EntityType>PB_Residence1</EntityType>
+			<Amount>1</Amount>
+		</EntityCondition>
+		<EntityCategoryCondition>
+			<EntityCategoryType>Serf</EntityCategoryType>
+			<Amount>1</Amount>
+		</EntityCategoryCondition>
+	</Conditions>
+</root>

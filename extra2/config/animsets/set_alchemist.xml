@@ -1,0 +1,44 @@
+<AnimSet>
+	<Category classname="GGL::CGLAnimCategory" classid="0xa7b5dfb8">
+		<Name>Walk</Name>
+		<Animation>PU_Alchemist_Walk</Animation>		
+    </Category>
+    
+    <Category classname="GGL::CGLAnimCategory" classid="0xa7b5dfb8">
+		<Name>Idle</Name>
+		<Animation>PU_Alchemist_Idle1</Animation>		
+    </Category>
+    
+    <Category classname="GGL::CGLAnimCategory" classid="0xa7b5dfb8">
+		<Name>Idle1</Name>
+		<Animation>PU_Alchemist_Idle1</Animation>		
+    </Category>
+    
+    <Category classname="GGL::CGLAnimCategory" classid="0xa7b5dfb8">
+		<Name>Idle2</Name>
+		<Animation>PU_Alchemist_Idle2</Animation>		
+    </Category>
+    
+    <Category classname="GGL::CGLAnimCategory" classid="0xa7b5dfb8">
+		<Name>Idle3</Name>
+		<Animation>PU_Alchemist_Idle3</Animation>		
+    </Category>
+    
+    <Category classname="GGL::CGLAnimCategory" classid="0xa7b5dfb8">
+		<Name>Idle4</Name>
+		<Animation>PU_Alchemist_Idle4</Animation>		
+    </Category>
+    
+    <Category classname="GGL::CGLAnimCategory" classid="0xa7b5dfb8">
+		<Name>Die</Name>
+		<Animation>PU_Alchemist_Dying</Animation>		
+    </Category>
+    
+    <Category classname="GGL::CGLAnimCategory" classid="0xa7b5dfb8">
+		<Name>Fear</Name>
+		<Animation>PU_Alchemist_Fear1</Animation>		
+    </Category>
+    
+    
+
+</AnimSet>

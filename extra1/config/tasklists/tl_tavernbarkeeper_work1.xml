@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CGLETaskList>
+ 
+     <PrincipalTask>Work</PrincipalTask>
+ 
+     
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_CHECK_FEAR</TaskType>
+    </Task>
+    
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_CHECK_FEAR</TaskType>
+    </Task>
+    
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_RESET_TASK_LIST_TIMER</TaskType>
+    </Task>
+
+    <!--Task classname="EGL::CGLETaskArgsSubAnim">
+        <TaskType>TASK_SET_ANIM_AT_WORKPLACE</TaskType>
+        <SubAnimIdx>0</SubAnimIdx>
+        <AnimID>PB_Farm2_600</AnimID>
+		<IsLooped>true</IsLooped>
+        <PlayBackwards>false</PlayBackwards>
+    </Task-->
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  		<TaskType>TASK_APPEAR</TaskType>
+ 	</Task>         
+ <Task classname="EGL::CGLETaskArgsPosAndOrientation" classid="0x2f706fdd">
+  <TaskType>TASK_SET_POS</TaskType>
+  <Position>
+   <X>0</X>
+   <Y>300</Y>
+  </Position>
+  <Orientation>180</Orientation>
+ </Task> 	    
+    <!--Task classname="EGL::CGLETaskArgsSound" classid="0x2cfedfcd">
+        <TaskType>TASK_PLAY_SOUND</TaskType> 
+        <SoundID>Buildings\SO_WindMill1</SoundID> 
+        <Volume>100</Volume> 
+    </Task-->    
+    
+ 	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  		<TaskType>TASK_VANISH</TaskType>
+ 	</Task>
+ 	
+     <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+	    <TaskType>TASK_CHANGE_WORK_TIME_WORK</TaskType>
+ </Task>
+ 
+
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_WORK_WAIT_UNTIL</TaskType>
+    </Task>
+    <!-- 
+        There are no special tasks to be called here, however this task list must end with
+        TASK_ADVANCE_IN_CYCLE rather than TASK_LIST_DONE.
+        Apart from that, go to the work building, play animations etc. as you wish
+    -->
+	
+    <!--Task classname="EGL::CGLETaskArgsSubAnim">
+        <TaskType>TASK_SET_ANIM_AT_WORKPLACE</TaskType>
+        <SubAnimIdx>0</SubAnimIdx>
+        <AnimID></AnimID>
+		<IsLooped>true</IsLooped>
+        <PlayBackwards>false</PlayBackwards>
+    </Task-->
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_ADVANCE_IN_CYCLE</TaskType>
+    </Task>
+
+</CGLETaskList>

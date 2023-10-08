@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CTaskList>
+	<Script></Script>
+ 
+	
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_MOVE_TO_SETTLER_TO_CONVERT</TaskType>
+	</Task>
+	
+	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+       <AnimID>PU_Hero6_Convert</AnimID>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_CONVERT_SETTLER</TaskType>
+	</Task>
+
+ 	<!--Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+ 		<TaskType>TASK_SET_ANIM</TaskType>
+ 		<AnimID>PU_Hero6_Convert</AnimID>
+ 		<PlayBackwards>false</PlayBackwards>
+	</Task-->
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+	    <TaskType>TASK_SET_DEFAULT_REACTION_TYPE</TaskType>
+	</Task>
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_LIST_DONE</TaskType>
+	</Task>
+ 
+</CTaskList>

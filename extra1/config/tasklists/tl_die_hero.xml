@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CTaskList>
+   
+ 	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+        <Category>Die</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+
+   	<Task classname="EGL::CTaskArgsEffectType" classid="0x442afa07">
+		<TaskType>TASK_SPAWN_PLAYER_EFFECT</TaskType>
+		<EffectType>FXDieHero</EffectType>
+	</Task>
+
+   
+	<Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+		<TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+		<Thousandths>1000</Thousandths>
+	</Task>
+
+ 	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+        <Category>Dead</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task>	
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_BECOME_COMATOSE</TaskType>
+	</Task>
+	
+	<!-- 
+	    everything between becoming comatose and task list done is what happens when the hero is
+	    resurrected.
+	-->
+	
+ 	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+        <Category>Die</Category>
+	   <PlayBackwards>true</PlayBackwards>
+	</Task> 
+   
+   
+	<Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+		<TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+		<Thousandths>1000</Thousandths>
+	</Task>
+
+ 	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_LIST_DONE</TaskType>
+	</Task>
+	
+</CTaskList>

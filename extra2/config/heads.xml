@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+ <!-- 
+   This file defines the properties for the heads for the body / head separation.
+   
+   The heads are organized in "head set".
+   
+   Each head and each hat is assigned to one head set.
+   For all combinations of heads and hats in a head set a model (.dff) is needed.
+ -->
+
+</root>

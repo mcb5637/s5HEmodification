@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CGLETaskList>
+ <Script>
+    	Logic.CreateEntity(Entities.PB_Foundry1,1500,1500,0);
+    	Logic.CreateEntity(Entities.PU_Smelter,500,500,0);
+
+	</Script>
+ 
+     <PrincipalTask>Work</PrincipalTask>
+ 
+  <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_CHECK_FEAR</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_CHECK_FEAR</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_RESET_TASK_LIST_TIMER</TaskType>
+ </Task>
+ <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>0</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_APPEAR</TaskType>
+ </Task>
+  <Task classname="EGL::CGLETaskArgsPosAndOrientation" classid="0x2f706fdd">
+  <TaskType>TASK_SET_POS</TaskType>
+  <Position>
+   <X>500</X>
+   <Y>-200</Y>
+  </Position>
+  <Orientation>270</Orientation>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Walk</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>5.196802e+002</X>
+   <Y>-7.712789e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-1.379336e+002</X>
+   <Y>-6.722130e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>10</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-6.640642e+002</X>
+   <Y>-2.340459e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-6.649501e+002</X>
+   <Y>1.629893e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Work1</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>220</Thousandths>
+ </Task>
+ <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>20</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsSubAnim" classid="0x23f8242d">
+  <TaskType>TASK_SET_ANIM_AT_WORKPLACE</TaskType>
+  <AnimID>PB_Foundry1_Cannon2_601</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+  <IsLooped>false</IsLooped>
+  <SubAnimIdx>1</SubAnimIdx>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>1000</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Idle1</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Walk</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>30</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-7.356369e+002</X>
+   <Y>6.773828e+001</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-7.529438e+002</X>
+   <Y>-5.222852e+001</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-7.011954e+002</X>
+   <Y>-1.396128e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-3.934141e+002</X>
+   <Y>-2.006252e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CTaskArgsFloat" classid="0xa2787eed">
+  <TaskType>TASK_SET_TARGET_ORIENTATION_RELATIVE</TaskType>
+  <Value>1.000000e+002</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_TURN_TO_TARGET_ORIENTATION</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Idle1</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>350</Thousandths>
+ </Task>
+ <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>40</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Work1</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>1000</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Walk</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-3.809742e+002</X>
+   <Y>-3.519609e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-2.943485e+002</X>
+   <Y>-4.359651e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-1.655653e+002</X>
+   <Y>-6.316653e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>3.363293e+001</X>
+   <Y>-5.700502e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>7.972375e+001</X>
+   <Y>-5.333674e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>9.107776e+001</X>
+   <Y>-4.666997e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>3.851648e+001</X>
+   <Y>-4.206777e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>3.747632e+001</X>
+   <Y>-4.247593e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>50</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Idle2</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>580</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Work2</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ 
+ 
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>300</Thousandths>
+ </Task>
+ <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>65</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>500</Thousandths>
+ </Task>
+ <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>80</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>700</Thousandths>
+ </Task>
+ <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>90</Value>
+ </Task>
+ 
+ 
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>1000</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Smelter_Walk</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>7.329370e+001</X>
+   <Y>-9.643262e+001</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>4.587255e+002</X>
+   <Y>-1.130771e+002</Y>
+  </Position>
+ </Task>
+  <Task classname="EGL::CTaskArgsInteger" classid="0xb3f8356d">
+ 	<TaskType>TASK_SET_CANNON_PROGRESS</TaskType>
+ 	<Value>100</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_CHANGE_WORK_TIME_WORK</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_WORK_WAIT_UNTIL</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_VANISH</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_CREATE_CANNON</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsTaskListID" classid="0x6385ea0d">
+  <TaskType>TASK_SET_TASK_LIST</TaskType>
+  <TaskList>TL_SMELTER_WORK1_WAIT</TaskList>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsSubAnim" classid="0x23f8242d">
+  <TaskType>TASK_SET_ANIM_AT_WORKPLACE</TaskType>
+  <AnimID></AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+  <IsLooped>false</IsLooped>
+  <SubAnimIdx>1</SubAnimIdx>
+ </Task>
+</CGLETaskList>

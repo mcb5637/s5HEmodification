@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<root>
+
+
+<!-- This file defines the properties for the attraction system -->
+
+
+<!-- Do attract a settler every x seconds -->
+<AttractionFrequency>2</AttractionFrequency>
+
+
+<!-- Do pay a worker every x seconds -->
+<PaydayFrequency>120</PaydayFrequency>
+
+<!-- Do Reattach workers every x seconds -->
+<ReAttachWorkerFrequency>10</ReAttachWorkerFrequency>
+
+<!-- Time to ban one entity type after one entity of same time left -->
+<EntityTypeBanTime>180</EntityTypeBanTime>
+
+
+<!-- Amount of money a player can be below 0 for paying leader, ... -->
+<PlayerMoneyDispo>0</PlayerMoneyDispo>
+
+
+<!-- Maximum distance between worker/work place and farm - distance in centi meter -->
+<MaximumDistanceWorkerToFarm>8000</MaximumDistanceWorkerToFarm>
+
+<!-- Maximum distance between worker/work place and residence - distance in centi meter -->
+<MaximumDistanceWorkerToResidence>8000</MaximumDistanceWorkerToResidence>
+
+
+</root>

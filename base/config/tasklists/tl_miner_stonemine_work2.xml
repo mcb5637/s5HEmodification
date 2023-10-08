@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CGLETaskList>
+ <Script>
+    	local PitID = Logic.CreateEntity(Entities.XD_StonePit1,1500,2000,0);
+    	Logic.SetResourceDoodadGoodAmount(PitID, 30000);
+    	Logic.CreateEntity(Entities.PB_StoneMine1,1500,2000,0);
+    	Logic.CreateEntity(Entities.PU_Miner,500,500,0);
+    	Logic.CreateEntity(Entities.PU_Miner,500,500,0);
+    	Logic.CreateEntity(Entities.PU_Miner,500,500,0);
+
+</Script>
+
+    <PrincipalTask>Work</PrincipalTask>
+
+  <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_CHECK_FEAR</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_CHECK_FEAR</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_RESET_TASK_LIST_TIMER</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Miner_Walk</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_APPEAR</TaskType>
+ </Task>
+  <Task classname="EGL::CGLETaskArgsPosAndOrientation" classid="0x2f706fdd">
+  <TaskType>TASK_SET_POS</TaskType>
+  <Position>
+   <X>520</X>
+   <Y>-300</Y>
+  </Position>
+  <Orientation>180</Orientation>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>5.119153e+002</X>
+   <Y>-2.951074e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>1.971694e+002</X>
+   <Y>-3.161206e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>1.795178e+001</X>
+   <Y>-1.445859e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>2.771577e+002</X>
+   <Y>1.714482e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>3.121101e+002</X>
+   <Y>1.855137e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Miner_StoneMine_LadderUp2b</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>200</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_MINED_RESOURCE</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_CHANGE_WORK_TIME_WORK</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>950</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Miner_StoneMine_Work2</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>3000</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Miner_StoneMine_LadderUp2b</AnimID>
+  <Category></Category>
+  <PlayBackwards>true</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>600</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_MINED_RESOURCE</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_CHANGE_WORK_TIME_WORK</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>950</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Miner_Walk</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>1.851807e+001</X>
+   <Y>-1.436216e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>1.981587e+002</X>
+   <Y>-3.162305e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>5.137258e+002</X>
+   <Y>-2.953179e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_VANISH</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_WORK_WAIT_UNTIL</TaskType>
+ </Task>
+ 
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_ADVANCE_IN_CYCLE</TaskType>
+ </Task>
+</CGLETaskList>

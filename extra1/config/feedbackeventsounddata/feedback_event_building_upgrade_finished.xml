@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!-- 	Param1: Upgrade Category	-->
+	
+	<Sound classname="GGUI::SoundFeedback::CSingleSound">
+		<SoundID>VoicesMentor\UPGRADE_UpgradeReady_rnd_01</SoundID>
+	</Sound>
+	
+</root>

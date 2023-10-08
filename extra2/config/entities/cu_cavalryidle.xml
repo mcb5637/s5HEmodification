@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<root>
+	<Display classname="ED::CDisplayEntityProps">
+		  <Class>GD::CDisplaySettler</Class>
+		  <Model>PU_SoldierCavalry4</Model> 
+		  <DrawPlayerColor>True</DrawPlayerColor>
+		  <Anim>PU_SoldierCavalry4_Run1</Anim>
+		  <Anim>PU_SoldierCavalry4_Idle1</Anim>		
+		  <Anim>PU_SoldierCavalry4_Idle2</Anim>		
+		  <Anim>PU_SoldierCavalry4_Idle3</Anim>		
+		  <Anim>PU_SoldierCavalry4_Idle4</Anim>		
+		  <Anim>PU_SoldierCavalry4_Idle5</Anim>		
+		  <Anim>PU_SoldierCavalry4_Idle6</Anim>			  
+		  <Anim>PU_SoldierCavalry4_Dying1</Anim>
+		  <Anim>PU_SoldierCavalry4_Hit</Anim>
+				
+	</Display>
+	<Logic classname="GGL::CGLSettlerProps">
+		  <Class>GGL::CSettler</Class>
+		  <AccessCategory>AccessCategorySettler</AccessCategory>		
+		  <MaxHealth>150</MaxHealth>
+		  <NeedsPlayer>true</NeedsPlayer>
+		  <ForceNoPlayer>false</ForceNoPlayer>
+   	  <AdjustWalkAnimSpeed>true</AdjustWalkAnimSpeed>
+		  <Exploration>29</Exploration>
+    	<IdleTaskList>TL_NPC_IDLE</IdleTaskList>
+    	<ExperiencePoints>20</ExperiencePoints>
+    	<AttractionSlots>2</AttractionSlots>
+    
+	</Logic>
+	<Behavior>
+		  <Logic classname="GGL::CGLAnimationBehaviorExProps">
+			  <Class>GGL::CGLBehaviorAnimationEx</Class>
+			  <SuspensionAnimation>PU_SoldierSword1_Idle1</SuspensionAnimation>			
+			  <AnimSet>SET_SOLDIERCAVALRY4</AnimSet>
+		  </Logic>
+		  <Display classname="ED::CBehaviorProps">
+			  <Class>ED::CDisplayBehaviorAnimation</Class>
+		</Display>
+	</Behavior>
+	<Behavior>
+		  <Logic classname="EGL::CMovementBehaviorProps">
+			  <Class>GGL::CSoldierMovement</Class>
+			  <Speed>480</Speed>
+			  <RotationSpeed>30</RotationSpeed>
+			  <MoveTaskList>TL_MILITARY_WALK</MoveTaskList>
+			  <MoveIdleAnim>PU_SoldierCavalry4_Idle1</MoveIdleAnim>
+		</Logic>
+		  <Display classname="ED::CBehaviorProps">
+			  <Class>ED::CDisplayBehaviorMovement</Class>
+		</Display>
+	</Behavior>
+	
+	
+	
+	<Behavior>
+		  <Logic classname="GGL::CGLBehaviorPropsDying">
+			  <Class>GGL::CGLBehaviorDying</Class>
+			  <DyingTaskList>TL_DIE</DyingTaskList>
+		</Logic>
+	</Behavior>
+
+
+	<Behavior>
+	    <Logic classname="GGL::CEvadeExecutionBehaviorProps">
+	        <Class>GGL::CEvadeExecutionBehavior</Class>
+	        <BasePriority>300</BasePriority>
+	        <ShouldEvade>false</ShouldEvade>
+	    </Logic>
+	</Behavior>
+
+
+</root>

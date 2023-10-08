@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<root>
+	<Display classname="ED::CDisplayEntityProps">
+			<Class>ED::CDisplayStaticEntity</Class>
+			<Model>PB_GenericBridge</Model>
+	</Display>
+	<Logic classname="GGL::CGLBuildingProps">
+		  <Class>GGL::CBuilding</Class>
+		  <AccessCategory>AccessCategoryBuilding</AccessCategory>
+		  <NeedsPlayer>true</NeedsPlayer>
+		  <ForceNoPlayer>false</ForceNoPlayer>
+        <BuildOn>XD_Bridge1</BuildOn>
+        <BuildOn>XD_Bridge2</BuildOn>        
+        <BuildOn>XD_Bridge3</BuildOn>
+        <BuildOn>XD_Bridge4</BuildOn>        
+        <Upgrade>
+            <Category>GenericBridge</Category>
+        </Upgrade>
+	    <ConstructionInfo>
+	    	<Cost>
+				    <Clay>300</Clay>												
+				    <Wood>500</Wood>
+				    <Stone>1000</Stone>
+				    <Gold/>
+				    <Iron/>
+				    <Sulfur/>
+	    	</Cost>
+        </ConstructionInfo>
+	</Logic>	
+    <Behavior>
+        <Logic classname="GGL::CResourceDependentBuildingBehaviorProperties">
+            <Class>GGL::CResourceDependentBuildingBehavior</Class>
+            <Building>
+                <Resource>XD_Bridge1</Resource>
+                <Type>PB_Bridge1</Type>
+            </Building>
+            <Building>
+                <Resource>XD_Bridge2</Resource>
+                <Type>PB_Bridge2</Type>
+            </Building>
+            <Building>
+                <Resource>XD_Bridge3</Resource>
+                <Type>PB_Bridge3</Type>
+            </Building>
+            <Building>
+                <Resource>XD_Bridge4</Resource>
+                <Type>PB_Bridge4</Type>
+            </Building>
+            
+        </Logic>
+    </Behavior>
+</root>

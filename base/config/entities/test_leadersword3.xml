@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 
+    THIS IS AN EARLY, NON-FINAL VERSION.  PLEASE HEED THE COMMENTS IN THIS FILE! 
+    Try to keep the comments - if you delete them, other people may not easily 
+    understand the meaning of some of the tags used herein.
+    
+    29.12.2003:  
+      Please note that there has been another change:  Entities that
+    support the walk command (GGL::CBehaviorWalkCommand) now require the tag
+    <MoveTaskList>TL_WhatEver</MoveTaskList>
+    in their EGL::CMovementBehaviorProps (sic: there are no extended props for
+    the walk command behavior).
+      And another thing:  there is now also a GGL::CBattleBehavior with
+    the props class GGL::CBattleBehaviorProps.  These define the damage class and
+    damage amount of the entity.  (Note that the armor class and amount are in the
+    settler props and the armor class is specified by a number currently.)
+      Also in the battle behavior props are various task list and animation 
+    properties.  Please refer to the comments below.
+      Furthermore, for settlers a dodge chance can be specified, but it is not 
+    currently used in the battle mechanics.  But it will be.
+-->
+
+<root>
+	<Display classname="ED::CDisplayEntityProps">
+		<Class>GD::CDisplaySettler</Class>
+		<Model>PU_LeaderSword3</Model> <!-- or PU_Leader or PU_LeaderSword or whatever -->
+		<DrawPlayerColor>True</DrawPlayerColor>
+		<!-- 
+		    I presume the animations need changing.  Also, any attack or defend etc. animations
+		    need to be added.
+		-->
+		<Anim>PU_LeaderSword3_Walk</Anim>
+		<Anim>PU_LeaderSword3_Run1</Anim>
+		<Anim>PU_LeaderSword3_Idle1</Anim>
+		<Anim>PU_LeaderSword3_IdleAttack1</Anim>
+		<Anim>PU_LeaderSword3_Attack1</Anim>
+		<Anim>PU_LeaderSword3_Attack2</Anim>
+		<Anim>PU_LeaderSword3_Finish</Anim>
+		<Anim>PU_LeaderSword3_Hit</Anim>
+		<!-- FAKE: -->
+		<Anim>PU_LeaderSword3_Dying1</Anim>
+	</Display>
+	<Logic classname="GGL::CGLSettlerProps">
+		<Class>GGL::CSettler</Class>	
+		<AccessCategory>AccessCategorySettler</AccessCategory>			
+		<NeedsPlayer>true</NeedsPlayer>
+		<ForceNoPlayer>false</ForceNoPlayer>
+        <Hat></Hat>
+        <Cost>
+			<Gold>50</Gold>
+			<Iron>100</Iron>
+        </Cost>
+        <Category>Military</Category>
+        <Category>Sword</Category>
+		<AdjustWalkAnimSpeed>true</AdjustWalkAnimSpeed>
+		<MaxHealth> 220 </MaxHealth>
+		<Exploration>23</Exploration>
+		<ArmorClass>ArmorClassIron</ArmorClass>
+		<ArmorAmount>4</ArmorAmount>
+		<DodgeChance>10</DodgeChance> <!-- Entity will dodge 15 per cent of the time.  Not bad. -->
+    	<IdleTaskList>TL_MILITARY_IDLE</IdleTaskList>
+        <Upgrade>
+            <Type>PU_LeaderSword4</Type> 
+            <Category>LeaderSword</Category>
+        </Upgrade>
+        <!-------------------------->
+        <!-- Technology Modifiers -->
+        <!-------------------------->
+		<!-- Name of parameter which is modified by the list of technologies below -->
+		<ModifyExploration>
+			<Technology>T_Tracking</Technology>
+			<Technology>T_Alloying</Technology>
+        </ModifyExploration>
+		<ModfiyHitpoints></ModfiyHitpoints>
+		<ModifySpeed></ModifySpeed>
+		<ModifyDamage></ModifyDamage>
+		<ModifyArmor></ModifiyArmor>
+		<ModifyDodge></ModifiyDodge>
+		<ModifyMaxRange></ModifyMaxRange>
+		<ModifyMinRange></ModifyMinRange>
+		<ModifyDamageBonus></ModifyDamageBonus>
+		<ModifyGroupLimit></ModifyGroupLimit>
+	</Logic>
+	<Behavior>
+		<Logic classname="GGL::CGLAnimationBehaviorExProps">
+			<Class>GGL::CGLBehaviorAnimationEx</Class>
+		<!-- animation to be used when entity is suspended -->
+			<SuspensionAnimation>PU_LeaderSword3_Idle1</SuspensionAnimation>
+			<!--
+			    I presume there will be an animation set for each type of leader
+			-->
+			<AnimSet>SET_LEADERSWORD3</AnimSet>
+		</Logic>
+		<Display classname="ED::CBehaviorProps">
+			<Class>ED::CDisplayBehaviorAnimation</Class>
+		</Display>
+	</Behavior>
+	<Behavior>
+		<Logic classname="EGL::CMovementBehaviorProps">
+			<Class>GGL::CSettlerMovement</Class>
+			<Speed>350</Speed>
+			<RotationSpeed>30</RotationSpeed>
+			<MoveTaskList>TL_MILITARY_WALK</MoveTaskList>
+		</Logic>
+		<Display classname="ED::CBehaviorProps">
+			<Class>ED::CDisplayBehaviorMovement</Class>
+		</Display>
+	</Behavior>
+	<Behavior> <!-- this is required so the leader can be told to move around -->
+		<Logic classname="EGL::CGLEBehaviorProps">
+			<Class>GGL::CBehaviorWalkCommand</Class>
+		</Logic>
+	</Behavior>
+	<Behavior>
+		<Logic classname="GGL::CLeaderBehaviorProps">
+			<Class>GGL::CLeaderBehavior</Class>
+			<!-- The below defined the soldier type the leader commands -->
+			<SoldierType>PU_SoldierSword3</SoldierType>
+			<!-- 
+			    The leader behavior is now derived from the battle behavior.
+			    This means that you need not specify the Battle Behavior explicitly 
+			    (and, indeed, shouldn't.  It could lead to all kinds of bugs that
+			    could potentially be tricky to track down!).  All the settings for
+			    the battle behavior are now here, as inherited properties of the
+			    leader behavior.
+            -->
+	        <!--
+	            The task list below is the one driving the battle behavior, looking
+	            for enemies etc.
+	        -->
+	        <BattleTaskList>TL_BATTLE</BattleTaskList>
+	        
+	        <!--
+	            The below are pretty self-explanatory names for animation tags.  In
+	            case of questions, please don't hesitate to ask Marcel Marre or
+	            Andreas Suika
+	        -->	        
+	        <NormalAttackAnim1>PU_LeaderSword3_Attack1</NormalAttackAnim1>
+	        <NormalAttackAnim2>PU_LeaderSword3_Attack1</NormalAttackAnim2>
+	        <CounterAttackAnim>PU_LeaderSword3_Attack1</CounterAttackAnim>
+	        <FinishingMoveAnim>PU_LeaderSword3_Attack1</FinishingMoveAnim>
+	        <MissAttackAnim>PU_LeaderSword3_Attack1</MissAttackAnim>
+	        <BattleIdleAnim>PU_LeaderSword3_IdleAttack1</BattleIdleAnim>
+	        <BattleWalkAnim>PU_LeaderSword3_Run1</BattleWalkAnim>
+	        
+	        <!--
+	            Finally, there's the damage class and the damage amount.  For details
+	            about the combat system, contact Andreas Suika or, if you really must,
+	            Marcel Marre
+	        -->
+	        <DamageClass>DC_Strike</DamageClass>
+	        <DamageAmount>12</DamageAmount>
+	        <MaxRandomDamageBonus>2</MaxRandomDamageBonus>
+	        <MaxRange>250.0f</MaxRange>
+	        <MinRange>0.0f</MinRange>
+		</Logic>
+	</Behavior>
+
+	<Behavior>
+		<Logic classname="GGL::CLimitedAttachmentBehaviorProperties">
+			<Class>GGL::CLimitedAttachmentBehavior</Class>
+            <Attachment>
+                <Type>ATTACHMENT_LEADER_SOLDIER</Type>
+                <Limit>9</Limit>
+            </Attachment>
+		</Logic>
+	</Behavior>
+	
+	<Behavior>
+		<Logic classname="GGL::CGLBehaviorPropsDying">
+			<Class>GGL::CGLBehaviorDying</Class>
+			<DyingTaskList>TL_DIE</DyingTaskList>
+		</Logic>
+	</Behavior>
+
+    <!--
+    The Follow Behavior is now a base class of the Battle Behavior.  It thus need
+    not and must not be specified as an extra behavior.  Since the formation 
+    behavior has no properties, there is no need to change the properties of the
+    battle behavior (or behaviors derived from that, such as the soldier and leader
+    behaviors).
+	<Behavior>
+		<Logic classname="EGL::CGLEBehaviorProps">
+			<Class>GGL::CBehaviorFollow</Class>
+		</Logic>
+	</Behavior>
+	-->
+
+	<!--
+	The Battle Behavior is now a base class of the Leader Behavior.  Hence, the
+	battle behavior properties are now part of the leader behavior properties and
+	specified there, and the battle behavior should not be explicitly added to the
+	list of behaviors!
+	<Behavior>
+	    <Logic classname="GGL::CBattleBehaviorProps">
+	        <Class>GGL::CBattleBehavior</Class>
+	    </Logic>
+	</Behavior>
+	-->
+
+</root>

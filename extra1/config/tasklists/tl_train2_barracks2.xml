@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CTaskList>
+
+	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+        <Category>Walk</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+
+    <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+        <TaskType>TASK_GO_TO_POS</TaskType>
+        <Position>
+            <X>-700</X>
+            <Y>-200</Y>
+        </Position>
+    </Task>
+
+    <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+        <TaskType>TASK_GO_TO_POS</TaskType>
+        <Position>
+            <X>-200</X>
+            <Y>-200</Y>
+        </Position>
+    </Task>
+
+    <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+        <TaskType>TASK_GO_TO_POS</TaskType>
+        <Position>
+            <X>-50</X>
+            <Y>-150</Y>
+        </Position>
+    </Task>
+	<Task classname="EGL::CGLETaskArgsSubAnim">
+		<TaskType>TASK_SET_ANIM_AT_BARRACKS</TaskType> 
+		<SubAnimIdx>1</SubAnimIdx> 
+		<AnimID>PB_Barracks2_602</AnimID>   
+		<IsLooped>true</IsLooped> 	
+		<PlayBackwards>false</PlayBackwards> 
+	</Task>  
+	    
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_TRAIN</TaskType>
+    </Task>
+
+	<Task classname="EGL::CGLETaskArgsSubAnim">
+		<TaskType>TASK_SET_ANIM_AT_BARRACKS</TaskType> 
+		<SubAnimIdx>1</SubAnimIdx> 
+		<AnimID></AnimID>   
+		<IsLooped>false</IsLooped> 	
+		<PlayBackwards>false</PlayBackwards> 
+	</Task>  
+</CTaskList>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!-- 	Param1: Technology Type	-->
+	<Sound classname="GGUI::SoundFeedback::CSingleSound">
+		<SoundID>VoicesMentor\RESEARCH_ResearchReady_rnd_01</SoundID>
+	</Sound>
+</root>

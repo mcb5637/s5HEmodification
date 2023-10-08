@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!-- 	Param1: EntityType
+		Param2: EntityID
+		Param3:	1 = Building
+			2 = Hero
+			3 = Soldier
+			4 = Settler 
+			5 = Ally -->
+	<Sound classname="GGUI::SoundFeedback::CData">
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>1</Value>
+			<SoundID>VoicesMentor\ATTACK_VillageUnderAttack_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>2</Value>
+			<SoundID>VoicesMentor\ATTACK_HeroUnderAttack_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>3</Value>
+			<SoundID>VoicesMentor\ATTACK_UnderAttack_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>4</Value>
+			<SoundID>VoicesMentor\ATTACK_WorkerUnderAttack_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>5</Value>
+			<SoundID>VoicesMentor\attack_alliedunderattack_rnd_01</SoundID>
+		</ValueSound>
+		<ParameterIndex>3</ParameterIndex>
+	</Sound>
+</root>

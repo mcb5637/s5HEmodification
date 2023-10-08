@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CTasksList>
+    <!-- fool around as you wish, then end with -->
+    <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+        <TaskType>TASK_SET_ANIM</TaskType>
+        <!-- No anim tag = no anim -->
+    </Task> 
+    <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+        <TaskType>TASK_WAIT</TaskType>
+        <Thousandths>200</Thousandths>
+    </Task>
+</CTasksList>

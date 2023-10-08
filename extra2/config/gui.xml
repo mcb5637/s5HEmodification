@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<root>
+
+	<!-- Short messages -->
+	
+	<!-- Time a short message is displayed in seconds -->
+	<ShortMessageDisplayTime>120</ShortMessageDisplayTime>
+	
+	<!-- Time a short message is kept in history -->
+	<ShortMessageHistoryTime>240</ShortMessageHistoryTime>
+
+</root>

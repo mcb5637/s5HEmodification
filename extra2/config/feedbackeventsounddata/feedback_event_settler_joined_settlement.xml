@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!--	Param1:	Entity Type	-->
+	<Sound classname="GGUI::SoundFeedback::CData">
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Farmer</EntityType>
+			<SoundID>VoicesMentor\JOIN_Farmer</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Miner</EntityType>
+			<SoundID>VoicesMentor\JOIN_Miner</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Smith</EntityType>
+			<SoundID>VoicesMentor\JOIN_Smith</SoundID>
+		</ValueSound>
+		
+		<!--AddOn-->
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Gunsmith</EntityType>
+			<SoundID>AOVoicesMentor\JOIN_Gunsmith</SoundID>
+		</ValueSound>		
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_MasterBuilder</EntityType>
+			<SoundID>AOVoicesMentor\JOIN_MasterBuilder</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_TavernBarkeeper</EntityType>
+			<SoundID>AOVoicesMentor\JOIN_Barkeeper</SoundID>
+		</ValueSound>
+		
+		
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Priest</EntityType>
+			<SoundID>VoicesMentor\JOIN_Priest</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Scholar</EntityType>
+			<SoundID>VoicesMentor\JOIN_Scholar</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Trader</EntityType>
+			<SoundID>VoicesMentor\JOIN_Trader</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_BrickMaker</EntityType>
+			<SoundID>VoicesMentor\JOIN_Brickworker</SoundID>
+		</ValueSound>		
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Stonecutter</EntityType>
+			<SoundID>VoicesMentor\JOIN_Stonecutter</SoundID>
+		</ValueSound>		
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Treasurer</EntityType>
+			<SoundID>VoicesMentor\JOIN_Treasurer</SoundID>
+		</ValueSound>		
+			
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Sawmillworker</EntityType>
+			<SoundID>VoicesMentor\JOIN_Sawmillworker</SoundID>
+		</ValueSound>		
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Smelter</EntityType>
+			<SoundID>VoicesMentor\JOIN_Smelter</SoundID>
+		</ValueSound>		
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Alchemist</EntityType>
+			<SoundID>VoicesMentor\JOIN_Alchemist</SoundID>
+		</ValueSound>		
+		<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+			<EntityType>PU_Engineer</EntityType>
+			<SoundID>VoicesMentor\JOIN_Engineer</SoundID>
+		</ValueSound>		
+		<ParameterIndex>1</ParameterIndex>
+		<Warn>true</Warn>
+	</Sound>
+</root>

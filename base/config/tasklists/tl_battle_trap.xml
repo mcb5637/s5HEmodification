@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CTaskList>
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_RESET_TASK_LIST_TIMER</TaskType>
+    </Task>    
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_CHECK_RANGE</TaskType>
+    </Task>
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_FIRE_PROJECTILE</TaskType>
+    </Task>
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_BATTLE_WAIT_UNTIL</TaskType>		
+	</Task>
+</CTaskList>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?><root>
+	<TecCategoryType>TC_Military</TecCategoryType>
+	<TimeToResearch>20</TimeToResearch>
+		<ResourceCosts>
+			<Gold>50</Gold>
+			<Iron>0</Iron>
+			<Clay/>
+			<Wood>150</Wood>
+			<Stone/>
+			<Sulfur/>
+		</ResourceCosts>
+		<AutomaticResearch>false</AutomaticResearch>	
+		<UseForStatisticsFlag>true</UseForStatisticsFlag>	
+	<Conditions>
+
+	</Conditions>	
+</root>

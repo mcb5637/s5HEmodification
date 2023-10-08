@@ -1,0 +1,12 @@
+<root>
+	<Modifier>
+		<Name>Tracking</Name>	
+		<Type>Add</Type>
+		<Value>5</Value>
+	</Modifier>
+	<Modifier>
+		<Name>Machicolation</Name>
+		<Type>Mul</Type>	
+		<Value>.5</Value>
+	</Modifier>
+</root>

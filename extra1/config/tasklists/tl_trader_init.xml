@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CTasksList>
+	<Task classname="EGL::CGLETaskArgs">
+	   <TaskType>TASK_VANISH</TaskType>
+	</Task> 
+	<Task classname="GGL::CGLTaskArgsTargetType">
+		<TaskType>TASK_ENTER_BUILDING</TaskType>
+		<TargetType>ATTACHMENT_MERCHANT_TRADER</TargetType>
+	</Task>
+</CTasksList>

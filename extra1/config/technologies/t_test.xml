@@ -1,0 +1,13 @@
+<root>
+	<TecCategoryType>TC_TEST</TecCategoryType>
+	<TimeToResearch>5</TimeToResearch>
+	<ResourceCosts>
+		<Clay>10</Clay>
+	</ResourceCosts>
+	<Conditions>
+		<EntityCondition>
+			<EntityType>PU_Serf</EntityType>
+			<Amount>1</Amount>
+		</EntityCondition>
+	</Conditions>
+</root>

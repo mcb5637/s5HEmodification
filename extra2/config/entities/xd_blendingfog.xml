@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<Display classname="ED::CDisplayEntityProps">
+		<Class>ED::CDisplayStaticEntity</Class>
+		<Model>XD_BlendingFog</Model>
+	</Display>
+	<Logic classname="EGL::CGLEEntityProps">
+		<Class>EGL::CGLEEntity</Class>
+		<AccessCategory>AccessCategoryAnimal</AccessCategory>
+		<DoNotExecute>True</DoNotExecute>
+	</Logic>
+	<Behavior>
+		  <Logic classname="EGL::CGLEBehaviorProps">
+			  <Class>GGL::CAlphaBlendingBehavior</Class>			
+		</Logic>
+		  <Display classname="ED::CBehaviorProps">
+			  <Class>GD::CAlphaBlendingBehavior</Class>
+		</Display>
+	</Behavior>
+</root>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CTasksList>
+	<Task classname="EGL::CGLETaskArgs">
+	   <TaskType>TASK_APPEAR</TaskType>
+	</Task> 
+
+	<Task classname="EGL::CGLETaskArgsAnimation">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+        <Category>Walk</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+
+    <Task classname="EGL::CGLETaskArgsPosition">
+        <TaskType>TASK_GO_TO_POS</TaskType>
+        <Position>
+            <X>-500</X>
+            <Y>0</Y>
+        </Position>
+    </Task>
+
+	<Task classname="EGL::CGLETaskArgs">
+	   <TaskType>TASK_TRADER_OFFER_POS_REACHED</TaskType>
+	</Task> 
+
+</CTasksList>

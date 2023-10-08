@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<Display classname="ED::CDisplayEntityProps">
+		<Class>ED::CDisplayStaticEntity</Class>
+		<Model>XD_DrawBridgeOpen2</Model>
+	</Display>
+	<Logic classname="EGL::CGLEEntityProps">
+		<Class>EGL::CGLEEntity</Class>
+		<AccessCategory>AccessCategoryOrnamental</AccessCategory>
+		<DoNotExecute>True</DoNotExecute>
+		
+        <Blocked1>
+            <X>-300</X>
+            <Y>-925</Y>
+        </Blocked1>
+        <Blocked2>
+            <X>200</X>
+            <Y>925</Y>
+        </Blocked2>
+        <TerrainPos1>
+            <X>-10</X>
+            <Y>10</Y>
+        </TerrainPos1>
+        <TerrainPos2>
+            <X>10</X>
+            <Y>-10</Y>
+        </TerrainPos2>        
+	</Logic>
+</root>

@@ -1,0 +1,26 @@
+<root>
+	<TecCategoryType>TC_Technologies</TecCategoryType>
+	<TimeToResearch>1</TimeToResearch>
+	<ResourceCosts>
+		<Clay>100</Clay>
+	</ResourceCosts>
+	<ExplorationModifier>
+		<Value>5</Value>
+		<Operation>+</Operation>
+	</ExplorationModifier>
+	<SpeedModifier>
+		<Value>6</Value>
+		<Operation>*</Operation>
+	</SpeedModifier>
+	<ExplorationModifier></ExplorationModifier>
+	<HitpointModifier></HitpointModifier>
+	<DamageModifier></DamageModifier>
+	<DamageBonusModifier></DamageBonusModifier>
+	<MaxRangeModifier></MaxRangeModifier>
+	<MinRangeModifier></MinRangeModifier>
+	<ArmorModifier></ArmorModifier>
+	<DodgeModifier></DodgeModifier>
+	<GroupLimitModifier></GroupLimitModifier>
+	<Conditions>		
+	</Conditions>
+</root>

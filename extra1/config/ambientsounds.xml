@@ -1,0 +1,249 @@
+<root>
+	<AmbientSound>
+		<!-- Name of Ambient Sound Type for usage in Sound Entity -->
+		<AmbientSoundType>AS_Forest</AmbientSoundType>
+		<PropertyData>
+			<!-- Sound name in Sounds.xml-->
+			<SoundNormalName>AmbientSounds\forest_daytime_rnd_1</SoundNormalName>
+			<SoundRainName>AmbientSounds\forest_daytime_rnd_1</SoundRainName>
+			<!-- If loop is true, no probability is checked. Don't use random sounds and looping!-->
+			<Looped>true</Looped>
+			<!-- Probability on every half sound that sound is played. 0 - 1000 -->
+			<Probability></Probability>
+			<!-- Fall off distance in world coordinates -->
+			<FallOffDistance>1000</FallOffDistance>
+			<!-- Maximum Volume 0-127 -->
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>
+		<!-- Name of Ambient Sound Type for usage in Sound Entity -->
+		<AmbientSoundType>AS_UHU</AmbientSoundType>
+		<PropertyData>
+			<SoundNormalName>AmbientSounds\forest_daytime_rnd_1</SoundNormalName>
+			<SoundRainName>AmbientSounds\forest_daytime_rnd_1</SoundRainName>
+			<Looped>false</Looped>
+			<Probability>10</Probability>
+			<FallOffDistance>1000</FallOffDistance>
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_Campfire</AmbientSoundType>
+		<PropertyData>			
+			<SoundNormalName>AmbientSounds\campfire_rnd_1</SoundNormalName>			
+			<SoundRainName>AmbientSounds\campfire_rnd_1</SoundRainName>			
+			<SoundSnowName>AmbientSounds\campfire_rnd_1</SoundSnowName>			
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>2000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_ForestEuropeDayTime</AmbientSoundType>
+		<PropertyData>			
+			<SoundNormalName>AmbientSounds\forest_daytime_rnd_1</SoundNormalName>	
+			<SoundRainName>AmbientSounds\forest_daytime_rnd_1</SoundRainName>	
+			<Looped>false</Looped>			
+			<Probability>10</Probability>			
+			<FallOffDistance>4000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_SwampFrogs</AmbientSoundType>
+		<PropertyData>			
+			<SoundNormalName>AmbientSounds\swamp_frogs_rnd_1</SoundNormalName>
+			<SoundRainName>AmbientSounds\swamp_frogs_rnd_1</SoundRainName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>3000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_WaterLakeShore</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\water_river_small_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\water_river_small_rnd_1</SoundRainName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>2000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_WaterfallBig</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\waterfall_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\waterfall_rnd_1</SoundRainName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>4000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_WindMontain</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\wind_mountain_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\wind_mountain_rnd_1</SoundRainName>
+		    <SoundSnowName>AmbientSounds\wind_mountain_rnd_1</SoundSnowName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>2000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_WaterRiverSmall</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\water_river_small_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\water_river_small_rnd_1</SoundRainName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>3000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	
+	
+<!-- addon Ambient Sounds -->
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_Crickets</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Crickets_rnd_1</SoundNormalName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>1000</FallOffDistance>			
+			<MaxVolume>80</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_Desertwind</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Desertwind_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\Desertwind_rnd_1</SoundRainName>
+		    <SoundSnowName>AmbientSounds\Desertwind_rnd_1</SoundSnowName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>3000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_Leaves</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Leaves_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\Leaves_rnd_1</SoundRainName>
+			<Looped>false</Looped>			
+			<Probability>10</Probability>			
+			<FallOffDistance>2000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_MoorBird</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Moor_bird_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\Moor_bird_rnd_1</SoundRainName>
+			<Looped>false</Looped>			
+			<Probability>10</Probability>			
+			<FallOffDistance>2000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_MoorBranches</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Moor_Branches_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\Moor_Branches_rnd_1</SoundRainName>
+		    <SoundSnowName>AmbientSounds\Moor_Branches_rnd_1</SoundSnowName>
+			<Looped>false</Looped>			
+			<Probability>10</Probability>			
+			<FallOffDistance>2000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_MoorBubbles</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Moor_Bubbles_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\Moor_Bubbles_rnd_1</SoundRainName>
+		    <SoundSnowName>AmbientSounds\Moor_Bubbles_rnd_1</SoundSnowName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>2000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_FogPeopleDrums</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Nephilim_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\Nephilim_rnd_1</SoundRainName>
+		    <SoundSnowName>AmbientSounds\Nephilim_rnd_1</SoundSnowName>
+			<Looped>false</Looped>			
+			<Probability>10</Probability>			
+			<FallOffDistance>4000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_ClickeringPebbles</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Pebbles_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\Pebbles_rnd_1</SoundRainName>
+		    <SoundRainName>AmbientSounds\Pebbles_rnd_1</SoundRainName>
+			<Looped>false</Looped>			
+			<Probability>20</Probability>			
+			<FallOffDistance>2000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_RushingWaterNormal</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Water_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\Water_rnd_1</SoundRainName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>4000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+	<AmbientSound>		
+		<AmbientSoundType>AS_RushingWaterDontFreeze</AmbientSoundType>
+		<PropertyData>			
+		    <SoundNormalName>AmbientSounds\Water_rnd_1</SoundNormalName>
+		    <SoundRainName>AmbientSounds\Water_rnd_1</SoundRainName>
+		    <SoundRainName>AmbientSounds\Water_rnd_1</SoundRainName>
+			<Looped>true</Looped>			
+			<Probability></Probability>			
+			<FallOffDistance>4000</FallOffDistance>			
+			<MaxVolume>127</MaxVolume>
+		</PropertyData>
+	</AmbientSound>
+	
+</root>

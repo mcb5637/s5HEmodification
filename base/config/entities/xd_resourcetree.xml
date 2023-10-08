@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <Display classname="ED::CDisplayEntityProps">
+        <Class>ED::CDisplayStaticEntity</Class>
+		<Model>ZXBox100</Model>   <!-- The model is a placeholder as it will always be set at run time -->
+        <RenderInFoW>true</RenderInFoW>
+    </Display>
+	<Logic classname="GGL::CResourceDoodadProperties">
+        <Class>GGL::CResourceDoodad</Class>
+	      <AccessCategory>AccessCategoryResourceDoodad</AccessCategory>
+        <ExtractTaskList>TL_SERF_GO_TO_TREE</ExtractTaskList>
+        <Radius>165</Radius>
+        <Center>
+            <X>0</X>
+            <Y>0</Y>
+        </Center>
+    </Logic>
+    <Behavior>
+        <Logic classname="GGL::CGLResourceDoodadBehaviorProps">
+            <Class>GGL::CResourceDoodadBehavior</Class>
+            <Resource>
+                <Good>WoodRaw</Good>
+            </Resource>
+        </Logic>
+    </Behavior>
+    <Behavior>
+        <Logic classname="EGL::CGLEBehaviorProps">
+            <Class>GGL::CTreeBehavior</Class>
+        </Logic>
+    </Behavior>
+    <Behavior>
+        <Logic classname="GGL::CReplaceableEntityBehaviorProperties">
+            <Class>GGL::CReplaceableEntityBehavior</Class>
+            <EntityType>XD_TreeStump1</EntityType>
+        </Logic>
+    </Behavior>
+</root>

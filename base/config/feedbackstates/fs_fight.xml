@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!-- zero means endless lifetime-->
+	<LifeTime>30</LifeTime>
+	<Filter>
+		<EventDataMapElement>
+			<!-- This event type is allowed-->
+			<Event>
+				<EventType>FEEDBACK_EVENT_ENTITY_HURT</EventType>
+				<!-- negative value means, all of this type-->
+				<Parameter1>-1</Parameter1>
+				<Parameter2>-1</Parameter2>
+				<Parameter3>-1</Parameter3>
+			</Event>
+			<Data>
+				<!--Time this event is hold in to be played memory-->
+				<LifeTime>1</LifeTime>
+				<!--Priority of sound, lower priority is better-->
+				<Priority>100</Priority>
+				<!--Ignore Events for time-->
+				<Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_ENTITY_HURT</EventType>
+						<!-- -1 means, all of this type-->
+						<!-- <= -2 means same as input parameter..warning use only with events that has same parameter value-->
+						<Parameter1>-1</Parameter1>
+						<Parameter2>-1</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>10</Time>
+				</Ignore>
+			</Data>
+		</EventDataMapElement>
+		<EventDataMapElement>
+			<!-- This event type is allowed-->
+			<Event>
+				<EventType>FEEDBACK_EVENT_TECHNOLOGY_RESEARCHED</EventType>
+				<!-- negative value means, all of this type-->
+				<Parameter1>-1</Parameter1>
+				<Parameter2>-1</Parameter2>
+				<Parameter3>-1</Parameter3>
+			</Event>
+			<Data>
+				<!--Time this event is hold in to be played memory-->
+				<LifeTime>10</LifeTime>
+				<!--Priority of sound, lower priority is better-->
+				<Priority>160</Priority>
+				<!--Ignore Events for time-->
+				<Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_TECHNOLOGY_RESEARCHED</EventType>
+						<!-- -1 means, all of this type-->
+						<!-- <= -2 means same as input parameter..warning use only with events that has same parameter value-->
+						<Parameter1>-1</Parameter1>
+						<Parameter2>-1</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>5</Time>
+				</Ignore>
+			</Data>
+		</EventDataMapElement>
+		<EventDataMapElement>
+			<Event>
+				<EventType>FEEDBACK_EVENT_SETTLER_GRIEVANCE</EventType>
+				<!-- negative value means, all of this type-->
+				<Parameter1>2</Parameter1>
+				<Parameter2>-1</Parameter2>
+				<Parameter3>-1</Parameter3>
+			</Event>
+			<Data>
+				<!--Time this event is hold in to be played memory-->
+				<LifeTime>5</LifeTime>
+				<!--Priority of sound, lower priority is better-->
+				<Priority>200</Priority>
+				<!--Ignore Events for time-->
+				<Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_SETTLER_GRIEVANCE</EventType>
+						<!-- negative value means, all of this type-->
+						<Parameter1>2</Parameter1>
+						<Parameter2>-2</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>30</Time>
+				</Ignore>
+			</Data>
+		</EventDataMapElement>
+		<EventDataMapElement>
+			<Event>
+				<EventType>FEEDBACK_EVENT_SETTLER_GRIEVANCE</EventType>
+				<!-- negative value means, all of this type-->
+				<Parameter1>3</Parameter1>
+				<Parameter2>-1</Parameter2>
+				<Parameter3>-1</Parameter3>
+			</Event>
+			<Data>
+				<!--Time this event is hold in to be played memory-->
+				<LifeTime>5</LifeTime>
+				<!--Priority of sound, lower priority is better-->
+				<Priority>180</Priority>
+				<!--Ignore Events for time-->
+				<Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_SETTLER_GRIEVANCE</EventType>
+						<!-- negative value means, all of this type-->
+						<Parameter1>3</Parameter1>
+						<Parameter2>-2</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>30</Time>
+				</Ignore>
+				<Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_SETTLER_GRIEVANCE</EventType>
+						<!-- negative value means, all of this type-->
+						<Parameter1>2</Parameter1>
+						<Parameter2>-2</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>30</Time>
+				</Ignore>
+			</Data>
+		</EventDataMapElement>
+		<EventDataMapElement>
+			<Event>
+				<EventType>FEEDBACK_EVENT_SETTLER_GRIEVANCE</EventType>
+				<!-- negative value means, all of this type-->
+				<Parameter1>4</Parameter1>
+				<Parameter2>-1</Parameter2>
+				<Parameter3>-1</Parameter3>
+			</Event>
+			<Data>
+				<!--Time this event is hold in to be played memory-->
+				<LifeTime>5</LifeTime>
+				<!--Priority of sound, lower priority is better-->
+				<Priority>150</Priority>
+				<!--Ignore Events for time-->
+				<Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_SETTLER_GRIEVANCE</EventType>
+						<!-- negative value means, all of this type-->
+						<Parameter1>2</Parameter1>
+						<Parameter2>-2</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>30</Time>
+				</Ignore>
+				<Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_SETTLER_GRIEVANCE</EventType>
+						<!-- negative value means, all of this type-->
+						<Parameter1>3</Parameter1>
+						<Parameter2>-2</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>30</Time>
+				<Ignore>
+				</Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_SETTLER_GRIEVANCE</EventType>
+						<!-- negative value means, all of this type-->
+						<Parameter1>4</Parameter1>
+						<Parameter2>-2</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>30</Time>
+				</Ignore>
+			</Data>
+		</EventDataMapElement>
+		<EventDataMapElement>
+			<!-- This event type is allowed-->
+			<Event>
+				<EventType>FEEDBACK_EVENT_RESOURCE_RUNNING_OUT</EventType>
+				<!-- negative value means, all of this type-->
+				<Parameter1>-1</Parameter1>
+				<Parameter2>-1</Parameter2>
+				<Parameter3>-1</Parameter3>
+			</Event>
+			<Data>
+				<!--Time this event is hold in to be played memory-->
+				<LifeTime>1</LifeTime>
+				<!--Priority of sound, lower priority is better-->
+				<Priority>155</Priority>
+				<!--Ignore Events for time-->
+				<Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_RESOURCE_RUNNING_OUT</EventType>
+						<!-- -1 means, all of this type-->
+						<!-- <= -2 means same as input parameter..warning use only with events that has same parameter value-->
+						<Parameter1>-1</Parameter1>
+						<Parameter2>-1</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>10</Time>
+				</Ignore>
+			</Data>
+		</EventDataMapElement>
+		<EventDataMapElement>
+			<Event>
+				<EventType>FEEDBACK_EVENT_SIMPLE</EventType>
+				<!-- negative value means, all of this type-->
+				<Parameter1>-1</Parameter1>
+				<Parameter2>-1</Parameter2>
+				<Parameter3>-1</Parameter3>
+			</Event>
+			<Data>
+				<!--Time this event is hold in to be played memory-->
+				<LifeTime>0.1</LifeTime>
+				<!--Priority of sound, lower priority is better-->
+				<Priority>301</Priority>
+				<!--Ignore Events for time-->
+				<Ignore>
+					<Event>
+						<!--Empty type means ignore own event-->
+						<EventType>FEEDBACK_EVENT_SIMPLE</EventType>
+						<!-- negative value means, all of this type-->
+						<Parameter1>-1</Parameter1>
+						<Parameter2>-1</Parameter2>
+						<Parameter3>-1</Parameter3>
+					</Event>
+					<!--Ignore this event for given time from now-->
+					<Time>2</Time>
+				</Ignore>
+			</Data>
+		</EventDataMapElement>
+	</Filter>
+	<EventIncreaseLifeTimeMapElement>
+		<!-- This event increase lifetime of this state-->
+		<EventType>FEEDBACK_EVENT_ENTITY_HURT</EventType>
+		<!-- By this time-->
+		<IncreasingTime>1</IncreasingTime>
+	</EventIncreaseLifeTimeMapElement>
+</root>

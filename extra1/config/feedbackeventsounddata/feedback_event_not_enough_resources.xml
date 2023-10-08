@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!--	Param1: Resource Type of Mine-->
+	<Sound classname="GGUI::SoundFeedback::CData">
+		
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>Iron</GoodType>
+			<SoundID>VoicesMentor\INFO_NotEnoughIron_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>Stone</GoodType>
+			<SoundID>VoicesMentor\INFO_NotEnoughStone_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>Sulfur</GoodType>
+			<SoundID>VoicesMentor\INFO_NotEnoughSulfur_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>Gold</GoodType>
+			<SoundID>VoicesMentor\INFO_NotEnoughGold_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>Clay</GoodType>
+			<SoundID>VoicesMentor\INFO_NotEnoughClay_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>Wood</GoodType>
+			<SoundID>VoicesMentor\INFO_NotEnoughWood_rnd_01</SoundID>
+		</ValueSound>
+		<ParameterIndex>1</ParameterIndex>
+		<Warn>true</Warn>
+	</Sound>
+</root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+  <Group id="Default">
+  	<Index id="BuildingBannerStatusEmpty"    value="Banners/XB_DefaultEmpty" />
+  	<Index id="BuildingBannerStatusOccupied" value="Banners/XB_DefaultOccupied" />
+  	<Index id="BuildingBannerStatusFull"     value="Banners/XB_DefaultFull" />
+  </Group>
+  <Group id="DefaultBend">
+  	<Index id="BuildingBannerStatusEmpty"    value="Banners/XB_BendEmpty" />
+  	<Index id="BuildingBannerStatusOccupied" value="Banners/XB_BendOccupied" />
+  	<Index id="BuildingBannerStatusFull"     value="Banners/XB_BendFull" />
+  </Group>
+  <Group id="Split">
+  	<Index id="BuildingBannerStatusEmpty"    value="Banners/XB_GespaltenEmpty" />
+  	<Index id="BuildingBannerStatusOccupied" value="Banners/XB_GespaltenOccupied" />
+  	<Index id="BuildingBannerStatusFull"     value="Banners/XB_GespaltenFull" />
+  </Group>
+    <Group id="SplitBend">
+  	<Index id="BuildingBannerStatusEmpty"    value="Banners/XB_GespaltenSchiefEmpty" />
+  	<Index id="BuildingBannerStatusOccupied" value="Banners/XB_GespaltenSchiefOccupied" />
+  	<Index id="BuildingBannerStatusFull"     value="Banners/XB_GespaltenSchiefFull" />
+  </Group>
+    <Group id="Large">
+  	<Index id="BuildingBannerStatusEmpty"    value="Banners/XB_LargeEmpty" />
+  	<Index id="BuildingBannerStatusOccupied" value="Banners/XB_LargeOccupied" />
+  	<Index id="BuildingBannerStatusFull"     value="Banners/XB_LargeFull" />
+  </Group>
+    <Group id="Standarte">
+  	<Index id="BuildingBannerStatusEmpty"    value="Banners/XB_StandarteEmpty" />
+  	<Index id="BuildingBannerStatusOccupied" value="Banners/XB_StandarteOccupied" />
+  	<Index id="BuildingBannerStatusFull"     value="Banners/XB_StandarteFull" />
+  </Group>
+  
+  
+</root>
+
+

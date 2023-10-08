@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<Display classname="ED::CDisplayEntityProps">
+		<Class>ED::CDisplayStaticEntity</Class>
+		<Model>ZB_ConstructionSiteFarm1</Model>
+	</Display>
+	<Logic classname="GGL::CGLBuildingProps">
+		<Class>GGL::CConstructionSite</Class>
+		<AccessCategory>AccessCategoryStatic</AccessCategory>
+		<ForceNoPlayer>true</ForceNoPlayer>
+		<NeedsPlayer>false</NeedsPlayer>
+		<MaxWorkers>4</MaxWorkers>
+		<ApproachPos>
+            <X>200</X>
+            <Y>0</Y>
+		</ApproachPos>
+		<ApproachR>0</ApproachR>
+		<DeleteWhenBuiltOn>false</DeleteWhenBuiltOn>
+	</Logic>
+	<Behavior>
+		<Logic classname="EGL::CGLEBehaviorProps">
+			<Class>GGL::CConstructionSiteBehavior</Class>
+		</Logic>
+	</Behavior>
+	<Behavior>
+		<Logic classname="EGL::CGLEBehaviorProps">
+			<Class>GGL::CBuildingBehavior</Class>
+		</Logic>
+	</Behavior>
+</root>

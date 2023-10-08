@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!--	Param1: Resource Type-->
+	<Sound classname="GGUI::SoundFeedback::CSingleSound">
+		<SoundID>OnKlick\Select_helias</SoundID>
+	</Sound>
+</root>

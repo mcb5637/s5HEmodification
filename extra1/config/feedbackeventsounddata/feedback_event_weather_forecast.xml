@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!--	Param1: Weather state 
+									1 = summer
+									2 = rain
+									3 = winter -->
+	<Sound classname="GGUI::SoundFeedback::CData">
+		
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>1</Value>
+			<SoundID>VoicesMentor\weather_sommerforecast_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>2</Value>
+			<SoundID>VoicesMentor\weather_rainforecast_rnd_01</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>3</Value>
+			<SoundID>VoicesMentor\weather_winterforecast_rnd_01</SoundID>
+		</ValueSound>
+		<ParameterIndex>1</ParameterIndex>
+	</Sound>
+</root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<Display classname="ED::CDisplayEntityProps">
+		<Class>ED::CDisplayStaticEntity</Class>
+		<Model>XD_RuinWall5</Model>
+		<RenderInFoW>true</RenderInFoW>
+	</Display>
+	<Logic classname="EGL::CGLEEntityProps">
+		<Class>EGL::CGLEEntity</Class>
+  		<AccessCategory>AccessCategoryStatic</AccessCategory> 
+		<DoNotExecute>True</DoNotExecute>
+        <ApproachPos>
+            <X>0</X>
+            <Y>0</Y>
+        </ApproachPos>
+		<ApproachR>0</ApproachR>
+	<BlockingArea>
+        <Blocked1>
+            <X>100</X>
+            <Y>200</Y>
+        </Blocked1>
+        <Blocked2>
+            <X>200</X>
+            <Y>-200</Y>
+        </Blocked2>
+	</BlockingArea>
+    <BlockingArea>    
+        <Blocked1>
+            <X>-300</X>
+            <Y>-100</Y>
+        </Blocked1>
+        <Blocked2>
+            <X>100</X>
+            <Y>-200</Y>
+        </Blocked2>
+	</BlockingArea>
+	</Logic>
+</root>

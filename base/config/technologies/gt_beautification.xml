@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><root>
+	<TecCategoryType>TC_Building</TecCategoryType>
+	<TimeToResearch>90</TimeToResearch>
+	<ResourceCosts>
+		  <Gold>1000</Gold>		  
+	</ResourceCosts>
+	<AutomaticResearch>true</AutomaticResearch>
+	<Conditions>		  
+	</Conditions>
+</root>

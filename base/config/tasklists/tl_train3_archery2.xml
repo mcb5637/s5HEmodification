@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CTaskList>
+
+	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+        <Category>Walk</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+
+    <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+        <TaskType>TASK_GO_TO_POS</TaskType>
+        <Position>
+            <X>-500</X>
+            <Y>400</Y>
+        </Position>
+    </Task>
+
+    <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+        <TaskType>TASK_GO_TO_POS</TaskType>
+        <Position>
+            <X>-500</X>
+            <Y>-200</Y>
+        </Position>
+    </Task>
+
+    <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+        <TaskType>TASK_GO_TO_POS</TaskType>
+        <Position>
+            <X>100</X>
+            <Y>-400</Y>
+        </Position>
+    </Task>
+ 
+    <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+        <TaskType>TASK_GO_TO_POS</TaskType>
+        <Position>
+            <X>100</X>
+            <Y>-300</Y>
+        </Position>
+    </Task>
+ 	<Task classname="EGL::CTaskArgsUVAnim">
+  		<TaskType>TASK_ACTIVATE_UVANIM</TaskType> 
+  		<SlotIndex>0</SlotIndex> 
+  		<Activate>True</Activate> 
+ 	</Task>
+	<Task classname="EGL::CGLETaskArgsSubAnim">
+		<TaskType>TASK_SET_ANIM_AT_BARRACKS</TaskType> 
+		<SubAnimIdx>0</SubAnimIdx> 
+		<AnimID>PB_Archery2_600</AnimID>   
+		<IsLooped>True</IsLooped>
+		<PlayBackwards>false</PlayBackwards> 
+	</Task> 
+	
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_TRAIN</TaskType>
+    </Task>
+	<Task classname="EGL::CGLETaskArgsSubAnim">
+		<TaskType>TASK_SET_ANIM_AT_BARRACKS</TaskType> 
+		<SubAnimIdx>0</SubAnimIdx> 
+		<AnimID></AnimID>   
+		<IsLooped>false</IsLooped>
+		<PlayBackwards>false</PlayBackwards> 
+	</Task> 
+ 	<Task classname="EGL::CTaskArgsUVAnim">
+  		<TaskType>TASK_ACTIVATE_UVANIM</TaskType> 
+  		<SlotIndex>0</SlotIndex> 
+  		<Activate>False</Activate> 
+ 	</Task>	
+</CTaskList>

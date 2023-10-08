@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CTaskList>
+	<Script></Script>
+ 
+	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+       <Category>Walk</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_GO_TO_KEG_TARGET</TaskType>
+	</Task>
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_CHECK_GO_TO_KEG_TARGET_SUCCESS</TaskType>
+	</Task>
+
+	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+       <AnimID>PU_Thief_Bomb</AnimID>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_PLACE_KEG</TaskType>
+	</Task>
+
+	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+       <Category>Walk</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_RETREAT_FROM_KEG_TARGET</TaskType>
+	</Task>
+
+ 	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+ 		<TaskType>TASK_SET_ANIM</TaskType>
+ 		<Category>Idle</Category>
+ 		<PlayBackwards>false</PlayBackwards>
+	</Task>
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+	    <TaskType>TASK_SET_DEFAULT_REACTION_TYPE</TaskType>
+	</Task>
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_LIST_DONE</TaskType>
+	</Task>
+ 
+</CTaskList>

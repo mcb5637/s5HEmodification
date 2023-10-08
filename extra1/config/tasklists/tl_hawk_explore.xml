@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CTasksList>
+    <!-- set animation etc. -->
+    
+    <!-- now move to the point to explore -->
+        <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+            <TaskType>TASK_MOVE_TO_EXPLORATION_POINT</TaskType>
+        </Task>
+    
+    <!-- let hawk circle a few times -->
+    
+    <!-- make it go back to idle (follow hero) task list -->
+        <Task classname="EGL::CGLETaskArgsTaskListID" classid="6385ea0d">
+            <TaskType>TASK_SET_TASK_LIST</TaskType> 
+            <TaskList>TL_HAWK_IDLE</TaskList> 
+        </Task>
+</CTasksList>

@@ -1,0 +1,13 @@
+<root>
+	<TecCategoryType>TC_Technologies</TecCategoryType>
+	<TimeToResearch>30</TimeToResearch>
+	<ResourceCosts>
+		<Gold></Gold>
+	</ResourceCosts>
+	<Conditions>		
+		<EntityCondition>
+			<EntityType>PB_PowerPlant1</EntityType>
+			  <Amount>1</Amount>
+		</EntityCondition>
+	</Conditions>
+</root>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CTasksList>
+
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_SET_THIEF_MODEL</TaskType>
+    </Task>
+ 
+	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+       <Category>Walk</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_GO_TO_SECURE_BUILDING</TaskType>
+	</Task>
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+	    <TaskType>TASK_CHECK_GO_TO_SECURE_BUILDING_SUCCESS</TaskType>
+	</Task>
+
+	<Task classname="GGL::CGLTaskArgsTargetType" classid="0x9b0b7f68">
+		<TaskType>TASK_ENTER_BUILDING</TaskType>
+		<TargetType>ATTACHMENT_THIEF_SECURE_BUILDING</TargetType>
+	</Task>
+
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_VANISH</TaskType>
+    </Task>
+
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_SECURE_STOLEN_GOODS</TaskType>
+    </Task>
+
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_SET_THIEF_MODEL</TaskType>
+    </Task>
+
+	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+       <Category>Walk</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_APPEAR</TaskType>
+    </Task>
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_LEAVE_BUILDING</TaskType>
+	</Task>
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_LEFT_BUILDING</TaskType>
+	</Task>
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_RESOLVE_COLLISION</TaskType>
+	</Task>
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_GO_TO_FREE_POSITION</TaskType>
+	</Task>
+    
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_THIEF_IDLE</TaskType>
+	</Task>
+	
+</CTasksList>

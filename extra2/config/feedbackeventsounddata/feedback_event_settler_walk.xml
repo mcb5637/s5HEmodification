@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!-- Not used-->
+	<Sound classname="GGUI::SoundFeedback::CSingleSound">
+		<SoundID>VoicesMentor\ATTACK_UnderAttack_rnd_01</SoundID>
+	</Sound>
+</root>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CTaskList>
+	<Script></Script>
+ 
+	<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+	   <TaskType>TASK_SET_ANIM</TaskType>
+       <Category>Walk</Category>
+	   <PlayBackwards>false</PlayBackwards>
+	</Task> 
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_GO_TO_CANNON_POSITION</TaskType>
+	</Task>
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_BUILD_CANNON</TaskType>
+	</Task>
+
+	<!--Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_RETREAT_FROM_BOMB_TARGET</TaskType>
+	</Task-->
+
+ 	<!--Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+ 		<TaskType>TASK_SET_ANIM</TaskType>
+ 		<AnimID>PU_Serf_Idle1</AnimID>
+ 		<PlayBackwards>false</PlayBackwards>
+	</Task-->
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+	    <TaskType>TASK_SET_DEFAULT_REACTION_TYPE</TaskType>
+	</Task>
+
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_LIST_DONE</TaskType>
+	</Task>
+ 
+</CTaskList>

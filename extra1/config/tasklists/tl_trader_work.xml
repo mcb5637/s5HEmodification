@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CGLETaskList>
+ <Script>
+    Logic.CreateEntity(Entities.PB_Market2,3500,2000,0,1);
+    Logic.CreateEntity(Entities.PU_Trader,500,500,0,1);
+ </Script>
+    
+ 
+     <PrincipalTask>Work</PrincipalTask>
+ 
+     <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_CHECK_FEAR</TaskType>
+    </Task>
+     
+    <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+        <TaskType>TASK_CHECK_FEAR</TaskType>
+    </Task>
+    
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID></AnimID>
+  <Category>Walk</Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_RESET_TASK_LIST_TIMER</TaskType>
+ </Task>
+  <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_APPEAR</TaskType>		
+	</Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>3.777954e+001</X>
+   <Y>3.611995e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-7.147510e+001</X>
+   <Y>2.230349e+002</Y>
+  </Position>
+ </Task> 
+ 
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-3.062742e+002</X>
+   <Y>1.502849e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-3.027587e+002</X>
+   <Y>5.958740e+001</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-3.657095e+002</X>
+   <Y>7.302539e+001</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CTaskArgsFloat" classid="0xa2787eed">
+  <TaskType>TASK_SET_TARGET_ORIENTATION_RELATIVE</TaskType>
+  <Value>3.300000e+002</Value>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_TURN_TO_TARGET_ORIENTATION</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_DO_TRADE_STEP</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+	    <TaskType>TASK_CHANGE_WORK_TIME_WORK</TaskType>
+ </Task>
+ 
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID>PU_Trader_Talk1</AnimID>
+  <Category></Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task>
+
+ <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+  <TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+  <Thousandths>2000</Thousandths>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+  <TaskType>TASK_SET_ANIM</TaskType>
+  <AnimID></AnimID>
+  <Category>Walk</Category>
+  <PlayBackwards>false</PlayBackwards>
+ </Task> 
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-3.114696e+002</X>
+   <Y>1.428455e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>-7.897778e+001</X>
+   <Y>2.247441e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>3.456494e+001</X>
+   <Y>3.586235e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_VANISH</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_WORK_WAIT_UNTIL</TaskType>
+ </Task>
+ <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+  <TaskType>TASK_ADVANCE_IN_CYCLE</TaskType>
+ </Task>
+</CGLETaskList>

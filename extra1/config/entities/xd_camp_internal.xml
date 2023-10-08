@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<Display classname="ED::CDisplayEntityProps">
+		<Class>ED::CDisplayStaticEntity</Class>
+		<Model>XD_Camp</Model>
+	</Display>
+	<Logic classname="EGL::CGLEEntityProps">
+		<Class>EGL::CGLEEntity</Class>
+  		<AccessCategory>AccessCategoryStatic</AccessCategory> 
+		<DoNotExecute>True</DoNotExecute>
+		<NeedsPlayer>true</NeedsPlayer>
+        <ForceNoPlayer>false</ForceNoPlayer>
+	</Logic>
+	<Behavior>
+		<Logic classname="GGL::CCampBehaviorProperties">
+			<Class>GGL::CCampBehavior</Class>
+            <Slot>
+                <X>-198</X>
+                <Y>-185</Y>
+            </Slot>
+            <Slot>
+                <X>-6</X>
+                <Y>-230</Y>
+            </Slot>
+            <Slot>
+                <X>151</X>
+                <Y>-114</Y>
+            </Slot>
+            <Slot>
+                <X>174</X>
+                <Y>31</Y>
+            </Slot>
+            <Slot>
+                <X>119</X>
+                <Y>127</Y>
+            </Slot>
+            
+            <Slot>
+                <X>-61</X>
+                <Y>156</Y>
+            </Slot>
+            <Slot>
+                <X>-188</X>
+                <Y>111</Y>
+            </Slot>
+            <Slot>
+                <X>-288</X>
+                <Y>-70</Y>
+            </Slot>
+            
+            
+           
+            <!-- Delay between all settlers leaving the camp and the camp being removed (in seconds) -->
+            <RemoveDelay>10.0</RemoveDelay> 
+            
+		</Logic>
+	</Behavior>
+</root>

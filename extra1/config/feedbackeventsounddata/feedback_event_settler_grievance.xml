@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!--	Param1: Grievance state of settler	
+							1=Happy
+							2=Sad
+							3=Angry
+							4=Leaving
+		Param2:	Entity Type
+		Param3: Reason				1 = Taxes
+							2 = Too Much Work
+							3 = NoWork
+							4 = NoFood
+							5 = NoRest
+							6 = NoPay-->
+	<Sound classname="GGUI::SoundFeedback::CParamValueSound">
+		<Data classname="GGUI::SoundFeedback::CData">
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Farmer</EntityType>
+				<SoundID>VoicesMentor\happy_Farmer</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Miner</EntityType>
+				<SoundID>VoicesMentor\happy_Miner</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Smith</EntityType>
+				<SoundID>VoicesMentor\happy_Smith</SoundID>
+			</ValueSound>			
+			
+			<!--AddOn-->
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Gunsmith</EntityType>
+				<SoundID>AOVoicesMentor\happy_Gunsmith</SoundID>
+			</ValueSound>			
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_MasterBuilder</EntityType>
+				<SoundID>AOVoicesMentor\happy_Masterbuilder</SoundID>
+			</ValueSound>			
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_TavernBarkeeper</EntityType>
+				<SoundID>AOVoicesMentor\happy_barkeeper</SoundID>
+			</ValueSound>
+			
+			
+			
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Priest</EntityType>
+				<SoundID>VoicesMentor\happy_Priest</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Scholar</EntityType>
+				<SoundID>VoicesMentor\happy_Scholar</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Trader</EntityType>
+				<SoundID>VoicesMentor\happy_Trader</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_BrickMaker</EntityType>
+				<SoundID>VoicesMentor\happy_Brickworker</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Stonecutter</EntityType>
+				<SoundID>VoicesMentor\happy_Stonecutter</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Treasurer</EntityType>
+				<SoundID>VoicesMentor\happy_Treasurer</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Sawmillworker</EntityType>
+				<SoundID>VoicesMentor\happy_Sawmillworker</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Smelter</EntityType>
+				<SoundID>VoicesMentor\happy_Smelter</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Alchemist</EntityType>
+				<SoundID>VoicesMentor\happy_Alchemist</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>CU_Serf</EntityType>
+				<SoundID>VoicesMentor\happy_Settler</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Engineer</EntityType>
+				<SoundID>VoicesMentor\happy_Engineer</SoundID>
+			</ValueSound>		
+			<ParameterIndex>2</ParameterIndex>
+		</Data>
+		<ParameterIndex>1</ParameterIndex>
+		<ParameterValue>1</ParameterValue>
+		<CanBeIgnored>true</CanBeIgnored>
+		<Warn>true</Warn>
+	</Sound>
+	<Sound classname="GGUI::SoundFeedback::CParamValueSound">
+		<Data classname="GGUI::SoundFeedback::CData">
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Farmer</EntityType>
+				<SoundID>VoicesMentor\SAD_Farmer</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Miner</EntityType>
+				<SoundID>VoicesMentor\SAD_Miner</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Smith</EntityType>
+				<SoundID>VoicesMentor\SAD_Smith</SoundID>
+			</ValueSound>			
+			
+			<!--AddOn-->
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Gunsmith</EntityType>
+				<SoundID>AOVoicesMentor\SAD_Gunsmith</SoundID>
+			</ValueSound>				
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_MasterBuilder</EntityType>
+				<SoundID>AOVoicesMentor\SAD_masterbuilder</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_TavernBarkeeper</EntityType>
+				<SoundID>AOVoicesMentor\SAD_barkeeper</SoundID>
+			</ValueSound>	
+			
+			
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Priest</EntityType>
+				<SoundID>VoicesMentor\SAD_Priest</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Scholar</EntityType>
+				<SoundID>VoicesMentor\SAD_Scholar</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Trader</EntityType>
+				<SoundID>VoicesMentor\SAD_Trader</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_BrickMaker</EntityType>
+				<SoundID>VoicesMentor\SAD_Brickworker</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Stonecutter</EntityType>
+				<SoundID>VoicesMentor\SAD_Stonecutter</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Treasurer</EntityType>
+				<SoundID>VoicesMentor\SAD_Treasurer</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Sawmillworker</EntityType>
+				<SoundID>VoicesMentor\SAD_Sawmillworker</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Smelter</EntityType>
+				<SoundID>VoicesMentor\SAD_Smelter</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Alchemist</EntityType>
+				<SoundID>VoicesMentor\SAD_Alchemist</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>CU_Serf</EntityType>
+				<SoundID>VoicesMentor\SAD_Settler</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Engineer</EntityType>
+				<SoundID>VoicesMentor\SAD_Engineer</SoundID>
+			</ValueSound>		
+			<ParameterIndex>2</ParameterIndex>
+		</Data>
+		<ParameterIndex>1</ParameterIndex>
+		<ParameterValue>2</ParameterValue>
+		<CanBeIgnored>true</CanBeIgnored>
+		<Warn>true</Warn>
+	</Sound>
+	<Sound classname="GGUI::SoundFeedback::CParamValueSound">
+		<Data classname="GGUI::SoundFeedback::CData">
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Farmer</EntityType>
+				<SoundID>VoicesMentor\MAD_Farmer</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Miner</EntityType>
+				<SoundID>VoicesMentor\MAD_Miner</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Smith</EntityType>
+				<SoundID>VoicesMentor\MAD_Smith</SoundID>
+			</ValueSound>
+			
+			<!--AddOn-->
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Gunsmith</EntityType>
+				<SoundID>AOVoicesMentor\MAD_Gunsmith</SoundID>
+			</ValueSound>			
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_MasterBuilder</EntityType>
+				<SoundID>AOVoicesMentor\MAD_MasterBuilder</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_TavernBarkeeper</EntityType>
+				<SoundID>AOVoicesMentor\MAD_Barkeeper</SoundID>
+			</ValueSound>	
+			
+			
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Priest</EntityType>
+				<SoundID>VoicesMentor\MAD_Priest</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Scholar</EntityType>
+				<SoundID>VoicesMentor\MAD_Scholar</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Trader</EntityType>
+				<SoundID>VoicesMentor\MAD_Trader</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_BrickMaker</EntityType>
+				<SoundID>VoicesMentor\MAD_Brickworker</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Stonecutter</EntityType>
+				<SoundID>VoicesMentor\MAD_Stonecutter</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Treasurer</EntityType>
+				<SoundID>VoicesMentor\MAD_Treasurer</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Sawmillworker</EntityType>
+				<SoundID>VoicesMentor\MAD_Sawmillworker</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Smelter</EntityType>
+				<SoundID>VoicesMentor\MAD_Smelter</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>CU_Serf</EntityType>
+				<SoundID>VoicesMentor\MAD_Settler</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Alchemist</EntityType>
+				<SoundID>VoicesMentor\MAD_Alchemist</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Engineer</EntityType>
+				<SoundID>VoicesMentor\MAD_Engineer</SoundID>
+			</ValueSound>		
+			<ParameterIndex>2</ParameterIndex>
+		</Data>
+		<ParameterIndex>1</ParameterIndex>
+		<ParameterValue>3</ParameterValue>
+		<CanBeIgnored>true</CanBeIgnored>
+		<Warn>true</Warn>
+	</Sound>
+	<Sound classname="GGUI::SoundFeedback::CParamValueSound">
+		<Data classname="GGUI::SoundFeedback::CData">
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Farmer</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Farmer</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Miner</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Miner</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Smith</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Smith</SoundID>
+			</ValueSound>
+			
+			<!--AddOn-->
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Gunsmith</EntityType>
+				<SoundID>AOVoicesMentor\LEAVE_Gunsmith</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_MasterBuilder</EntityType>
+				<SoundID>AOVoicesMentor\LEAVE_Masterbuilder</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_TavernBarkeeper</EntityType>
+				<SoundID>AOVoicesMentor\LEAVE_Barkeeper</SoundID>
+			</ValueSound>
+			
+			
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Priest</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Priest</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Scholar</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Scholar</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Trader</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Trader</SoundID>
+			</ValueSound>
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_BrickMaker</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Brickworker</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Stonecutter</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Stonecutter</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Treasurer</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Treasurer</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Sawmillworker</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Sawmillworker</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Smelter</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Smelter</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>CU_Serf</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Settler</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Alchemist</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Alchemist</SoundID>
+			</ValueSound>		
+			<ValueSound classname="GGUI::SoundFeedback::CEntityType">
+				<EntityType>PU_Engineer</EntityType>
+				<SoundID>VoicesMentor\LEAVE_Engineer</SoundID>
+			</ValueSound>		
+			<ParameterIndex>2</ParameterIndex>
+		</Data>
+		<ParameterIndex>1</ParameterIndex>
+		<ParameterValue>4</ParameterValue>
+		<CanBeIgnored>true</CanBeIgnored>
+		<Warn>true</Warn>
+	</Sound>	
+	<Sound classname="GGUI::SoundFeedback::CData">
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>1</Value>
+			<SoundID>VoicesMentor\REASON_SettlerToHighTaxes</SoundID>
+		</ValueSound>
+		
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>2</Value>
+			<SoundID>VoicesMentor\REASON_SettlerForcedToWork</SoundID>
+		</ValueSound>	
+		
+		<ValueSound classname="GGUI::SoundFeedback::CNormalValue">
+			<Value>3</Value>
+			<SoundID>VoicesMentor\REASON_SettlerHasNoWorkPlaces</SoundID>
+		</ValueSound>		
+		
+		<ParameterIndex>3</ParameterIndex>
+	</Sound>		
+</root>

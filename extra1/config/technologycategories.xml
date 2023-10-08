@@ -1,0 +1,49 @@
+<root>
+		
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_Military</TechnologyCategoryType>
+		<FirstTechnologyType>GT_Mercenaries</FirstTechnologyType>
+	</TechnologyCategory>
+	
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_Construction</TechnologyCategoryType>
+		<FirstTechnologyType>GT_Construction</FirstTechnologyType>
+	</TechnologyCategory>
+	
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_Resources</TechnologyCategoryType>
+		<FirstTechnologyType>GT_Alchemy</FirstTechnologyType>
+	</TechnologyCategory>
+	
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_Trading</TechnologyCategoryType>
+		<FirstTechnologyType>GT_Taxation</FirstTechnologyType>
+	</TechnologyCategory>
+	
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_Administration</TechnologyCategoryType>
+		<FirstTechnologyType>GT_Literacy</FirstTechnologyType>
+	</TechnologyCategory>
+	
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_Inventions</TechnologyCategoryType>
+		<FirstTechnologyType>GT_Mathematics</FirstTechnologyType>
+	</TechnologyCategory>
+	
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_Building</TechnologyCategoryType>		
+	</TechnologyCategory>
+	
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_BuildingUpgrades</TechnologyCategoryType>		
+	</TechnologyCategory>
+	
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_Technologies</TechnologyCategoryType>		
+	</TechnologyCategory>
+	
+	<TechnologyCategory>
+		<TechnologyCategoryType>TC_MilitaryUnits</TechnologyCategoryType>		
+	</TechnologyCategory>
+	
+</root>

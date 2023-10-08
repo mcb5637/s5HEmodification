@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!--	Param1: Resource Type-->
+	<Sound classname="GGUI::SoundFeedback::CData">
+		
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>IronRaw</GoodType>
+			<SoundID>VoicesMentor\trade_sendresourcesiron</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>StoneRaw</GoodType>
+			<SoundID>VoicesMentor\trade_sendresourcesstone</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>SulfurRaw</GoodType>
+			<SoundID>VoicesMentor\trade_sendresourcessulfur</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>ClayRaw</GoodType>
+			<SoundID>VoicesMentor\trade_sendresourcesclay</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>GoldRaw</GoodType>
+			<SoundID>VoicesMentor\trade_sendresourcesgold</SoundID>
+		</ValueSound>
+		<ValueSound classname="GGUI::SoundFeedback::CGoodType">
+			<GoodType>WoodRaw</GoodType>
+			<SoundID>VoicesMentor\trade_sendresourceswood</SoundID>
+		</ValueSound>	
+		<ParameterIndex>1</ParameterIndex>
+	</Sound>
+</root>

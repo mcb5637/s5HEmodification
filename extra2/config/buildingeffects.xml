@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <!-- If a building's health is higher than this value, no damage effects
+         will be displayed. The value is interpreted as a fraction of the total health -->
+    <HealthNoDamageEffects>0.5</HealthNoDamageEffects>
+
+    <!-- If a building's health is lower than this value, all damage effects
+         will be displayed. The value is interpreted as a fraction of the total health -->
+    <HealthAllDamageEffects>0.1</HealthAllDamageEffects>
+
+    <DamageEffect>Effects\XF_HouseFire</DamageEffect>
+    <DamageEffect>Effects\XF_HouseFireSmall</DamageEffect>
+    <DamageEffect>Effects\XF_HouseFireMedium</DamageEffect>
+    <DamageEffect>Effects\XF_HouseFireLo</DamageEffect>
+    <DamageEffect>Effects\XF_HouseFireLo</DamageEffect>
+    <DestroyEffect>Effects\XF_BuildingSmoke</DestroyEffect>
+    <DestroyEffect>Effects\XF_BuildingSmokeMedium</DestroyEffect>
+    <DestroyEffect>Effects\XF_BuildingSmokeLarge</DestroyEffect>
+</root>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!-- No Parameters-->
+	<Sound classname="GGUI::SoundFeedback::CSingleSound">
+		<SoundID>VoicesMentor\INFO_Payday_rnd_01</SoundID>
+	</Sound>
+</root>

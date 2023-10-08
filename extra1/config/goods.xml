@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+	<!-- Goods -->
+        
+	<Good id="XG_Iron">
+		<Display classname="GD::CDisplayGoodProps">
+			<Model>XG_Iron</Model>
+		</Display>
+	</Good>
+	<Good id="XG_Gold">
+		<Display classname="GD::CDisplayGoodProps">
+			<Model>XG_Gold</Model>
+		</Display>
+	</Good>	       
+        <Good id="XG_Stone">
+		<Display classname="GD::CDisplayGoodProps">
+			<Model>XG_Stone</Model>
+		</Display>
+	</Good> 
+	<Good id="XG_Sulfur">
+		<Display classname="GD::CDisplayGoodProps">
+			<Model>XG_Sulfur</Model>
+		</Display>
+	</Good>	          
+        	
+ 
+        
+	<!-- Virtual Good -->
+        
+        
+        <Good id="XVG_Stone">
+		<Display classname="GD::CDisplayGoodProps">
+			<Model>XVG_Stone</Model>
+		</Display>
+	</Good>
+	<Good id="XVG_Gold">
+		<Display classname="GD::CDisplayGoodProps">
+			<Model>XVG_Gold</Model>
+		</Display>
+	</Good>
+	<Good id="XVG_Iron">
+		<Display classname="GD::CDisplayGoodProps">
+			<Model>XVG_Iron</Model>
+		</Display>
+	</Good>        
+	<Good id="XVG_Sulfur">
+		<Display classname="GD::CDisplayGoodProps">
+			<Model>XVG_Sulfur</Model>
+		</Display>
+	</Good>        
+ 
+</root>

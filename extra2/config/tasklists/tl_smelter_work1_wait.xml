@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CTasksList>
+ 
+     <PrincipalTask>Work</PrincipalTask>
+ 
+ 	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_DO_WORK_AT_FOUNDRY</TaskType>
+	</Task>
+	
+	<Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+		<TaskType>TASK_ADVANCE_IN_CYCLE</TaskType>
+	</Task>
+    
+</CTasksList>

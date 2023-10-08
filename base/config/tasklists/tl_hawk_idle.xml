@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CTasksList>
+    <!-- make the hawk circle and periodically check the position of its master with -->
+        <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+            <TaskType>TASK_CHECK_HERO_POSITION</TaskType>
+        </Task>
+        
+        
+       <Task classname="EGL::CGLETaskArgsThousandths" classid="0x230862d8">
+		<TaskType>TASK_WAIT_FOR_ANIM</TaskType>
+		<Thousandths>5000</Thousandths>
+</Task>
+        
+    <!-- this is old stuff... -->
+		<Task classname="EGL::CGLETaskArgsAnimation" classid="0x4d90ecb8">
+            <TaskType>TASK_SET_ANIM</TaskType> 
+                <Category>Walk</Category> 
+            <PlayBackwards>false</PlayBackwards> 
+        </Task> 
+	
+	<Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>3.423452e+002</X>
+   <Y>6.453809e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>4.147579e+002</X>
+   <Y>1.076746e+003</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>8.049546e+002</X>
+   <Y>1.108781e+003</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>1.135430e+003</X>
+   <Y>8.743301e+002</Y>
+  </Position>
+ </Task>
+ 
+  <!-- make the hawk circle and periodically check the position of its master with -->
+        <Task classname="EGL::CGLETaskArgs" classid="0x7ce66308">
+            <TaskType>TASK_CHECK_HERO_POSITION</TaskType>
+        </Task>
+ 
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>9.926934e+002</X>
+   <Y>4.188667e+002</Y>
+  </Position>
+ </Task>
+ <Task classname="EGL::CGLETaskArgsPosition" classid="0x5cc25f38">
+  <TaskType>TASK_GO_TO_POS</TaskType>
+  <Position>
+   <X>6.637186e+002</X>
+   <Y>3.962241e+002</Y>
+  </Position>
+ </Task>
+ 
+ 
+ 
+ 
+ 
+        
+<!--        
+        <Task classname="EGL::CTaskArgsRandomWaitForAnim" classid="0xeaa8fc97">
+            <TaskType>TASK_RANDOM_WAIT_FOR_ANIM</TaskType> 
+            <LowerBound>1</LowerBound>
+            <UpperBound>2</UpperBound>
+        </Task>
+-->                                              
+</CTasksList>
